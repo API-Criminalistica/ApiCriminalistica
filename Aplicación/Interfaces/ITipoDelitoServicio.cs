@@ -1,6 +1,6 @@
-﻿namespace Aplicación.Interfaces
+﻿namespace Aplicacion.Interfaces
 {
-    using Aplicación.DTOs;
+    using Aplicacion.DTOs;
     using System;
     using System.Collections.Generic;
     using System.Text;

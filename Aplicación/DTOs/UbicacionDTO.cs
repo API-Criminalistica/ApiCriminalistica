@@ -1,4 +1,4 @@
-﻿namespace Aplicación.DTOs
+﻿namespace Aplicacion.DTOs
 {
     using System;
     using System.Collections.Generic;
