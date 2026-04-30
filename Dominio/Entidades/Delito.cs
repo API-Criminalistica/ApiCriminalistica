@@ -30,9 +30,19 @@
         public DateTime Fecha { get; set; }
 
         /// <summary>
+        /// Obtiene o establece el identificador único del tipo de delito asociado.
+        /// </summary>
+        public int TipoDelitoId { get; set; }
+
+        /// <summary>
         /// Identificador unico del tipo de delito.
         /// </summary>
         public TipoDelito TipoDelito { get; set; }
+
+        /// <summary>
+        /// Obtiene o establece el identificador único de la ubicación asociada.
+        /// </summary>
+        public int UbicacionId { get; set; }
 
         /// <summary>
         /// Ubicación donde ocurrió el delito.

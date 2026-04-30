@@ -15,9 +15,19 @@
         public int Id { get; set; }
 
         /// <summary>
+        /// Obtiene o establece el identificador único de la localidad asociada.
+        /// </summary>
+        public int LocalidadId { get; set; }
+
+        /// <summary>
         /// Localidad donde ocurrió el delito.
         /// </summary>
         public Localidad Localidad { get; set; }
+
+        /// <summary>
+        /// Obtiene o establece el identificador único del barrio asociado.
+        /// </summary>
+        public int BarrioId { get; set; }
 
         /// <summary>
         /// Barrio donde ocurrió el delito.

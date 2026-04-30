@@ -20,6 +20,11 @@
         public string Nombre { get; set; }
 
         /// <summary>
+        /// Obtiene o establece el identificador único de la localidad asociada.
+        /// </summary>
+        public int LocalidadId { get; set; }
+
+        /// <summary>
         /// Localidad del barrio.
         /// </summary>
         public Localidad Localidad { get; set; }

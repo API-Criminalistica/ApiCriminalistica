@@ -12,7 +12,7 @@
         /// <summary>
         /// Identificador unico de la localidad.
         /// </summary>
-        public int id { get; set; }
+        public int Id { get; set; }
 
         /// <summary>
         /// Nombre de la localidad.
